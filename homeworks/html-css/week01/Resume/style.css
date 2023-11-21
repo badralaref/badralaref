@@ -66,4 +66,9 @@ body {
   .work-experience span, .education span {
     display: block;
   }
+
+  .img {
+    height: 200px;
+    width: 200px;
+  }
   
