@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #grid-floats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .feature {
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .article-content__title,
+  .card__title {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .page-section__heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4285f4;
+  }
+  
+  .card__title {
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    #grid-floats {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Split cards into four columns */
+  @media (min-width: 768px) {
+    .grid-item {
+      width: calc(25% - 20px);
+      margin-right: 20px;
+    }
+  
+    .grid-item:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+  
