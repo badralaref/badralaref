@@ -6,7 +6,7 @@ https://foocoding.github.io/homeworks/html-css/week02
 
 https://foocoding.github.io/homeworks/html-css/week03
 
-Javascript1 homeworks:
+JavaScript1 homeworks:
 
 https://foocoding.github.io/homeworks/javascript1/week01
 
