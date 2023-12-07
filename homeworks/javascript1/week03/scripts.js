@@ -79,18 +79,18 @@ vehicleType("green", 3); // Output: Unknown vehicle code
 console.log(3 === 3 ? "yes" : "no");
 
 //6.
-function vehicle(code, age) {
-    const vehicleTypes = ['car', 'motorbike', 'caravan', 'bike'];
-    const type = vehicleTypes[code - 1]; // Adjust code to match array index
-    if (age > 0) {
-        console.log(`A used ${type}`);
-    } else {
-        console.log(`A new ${type}`);
-    }
-}
-// Example usage:
-vehicle(1, 5); // Output: A used car
-vehicle(4, 0); // Output: A new bike
+// function vehicle(code, age) {
+//     const vehicleTypes = ['car', 'motorbike', 'caravan', 'bike'];
+//     const type = vehicleTypes[code - 1]; // Adjust code to match array index
+//     if (age > 0) {
+//         console.log(`A used ${type}`);
+//     } else {
+//         console.log(`A new ${type}`);
+//     }
+// }
+// // Example usage:
+// vehicle(1, 5); // Output: A used car
+// vehicle(4, 0); // Output: A new bike
 //7.
 let vehicles = ["Car", "Motorbike", "Pickup", "Caravan", "Bike", "Truck"];
 //8.
@@ -100,15 +100,17 @@ let vehiclesList = ['car', 'motorbike', 'caravan', 'bike'];
 // Get the third element from the list
 let thirdElement = vehiclesList[2];
 console.log(thirdElement);
-// //9.
-// function vehicle(color,typeOfVehicle, age){
-//   if (age >= 3){
-//     console.log("a "+ color +" used " + vehicles[typeOfVehicle]);
-//                 }
-//    else {
-//     console.log("a "+ color +" new " + vehicles[typeOfVehicle]);
-//   }
-// }
+//9.
+function vehicle(color,typeOfVehicle, age){
+  if (age >= 3){
+    console.log("a "+ color +" used " + vehicles[typeOfVehicle]);
+                }
+   else {
+    console.log("a "+ color +" new " + vehicles[typeOfVehicle]);
+  }
+}
+
+vehicle("blue", 2,1)
 //10.
 function advertiseGarage() {
     let advertisement = "Amazing Joe's Garage, we service ";
@@ -126,8 +128,6 @@ function advertiseGarage() {
 // Example usage:
 advertiseGarage();
 // Output: Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes.
-//11.
-
 //12.
 // Create an empty object
 let Object = {};
@@ -170,14 +170,14 @@ console.log(o2)
 console.log(o3)
 //change o2 to baz
 o2.foo = "baz";
-console.log(o2); // { foo: "baz" }
-console.log(o3); // { foo: "baz" }
+console.log(o2);
+console.log(o3);
 
 // Changing o1
 o1.foo = "qux";
 
-console.log(o1); // { foo: "qux" }
-console.log(o3); // { foo: "baz" }
+console.log(o1);
+console.log(o3);
 //17.
 let bar = 42;
 typeof bar;
