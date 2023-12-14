@@ -1,15 +1,17 @@
 HTML-CSS homeworks:
 
-https://foocoding.github.io/homeworks/html-css/week01
+https://foocoding_homeworks/homeworks/html-css/week01
 
-https://foocoding.github.io/homeworks/html-css/week02
+https://foocoding_homeworks/homeworks/html-css/week02
 
-https://foocoding.github.io/homeworks/html-css/week03
+https://foocoding_homeworks/homeworks/html-css/week03
 
-Javascript1 homeworks:
+JavaScript1 homeworks:
 
-https://foocoding.github.io/homeworks/javascript1/week01
+https://foocoding_homeworks/homeworks/javascript1/week02
 
-https://foocoding.github.io/homeworks/javascript1/week02
+https://foocoding_homeworks/homeworks/javascript1/week03
 
-https://foocoding.github.io/homeworks/javascript1/week03
+JavaScript2 homeworks:
+
+https://foocoding_homeworks/homeworks/javascript2/week01
