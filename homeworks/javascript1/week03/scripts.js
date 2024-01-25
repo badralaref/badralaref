@@ -160,7 +160,10 @@ console.log(x[0,1,2] === y[0,1,2]);
 console.log(z == y);
 console.log(z === y);
 console.log(z == x[0,1,2]);
-// As shown above the values of the items inside of the arrays are actually equal. However the arrays have different identities even though they contain the same values. that can't be said for z because it refers to an existing array which doesn't make it an array in the first place!
+// As shown above the values of the items inside of the arrays are actually equal. However the arrays have different identities even though
+//they contain the same values.that can't be said for z because it refers to an existing array which doesn't make it an array in the first
+//place!
+
 //16.
 let o1 = { foo: "bar" };
 let o2 = { foo: "bar" };
@@ -178,6 +181,12 @@ o1.foo = "qux";
 
 console.log(o1);
 console.log(o3);
+
+// Changing o2 again
+o2.foo = "change";
+console.log(o2);
+console.log(o3);
+
 //17.
 let bar = 42;
 typeof bar;
